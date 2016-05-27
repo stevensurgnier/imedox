@@ -27,5 +27,11 @@ left: $(CONTROLLER)/kll
 	$(MAKE) -C $@
 	cp $@/kiibohd.dfu.bin $@_kiibohd.dfu.bin
 
+flash-right: right
+	dfu-util -D $<_kiibohd.dfu.bin
+
+flash-left: left
+	dfu-util -D $<_kiibohd.dfu.bin
+
 clean:
 	rm -rf controller/kll $(SIDES) $(SIDES:%=%_kiibohd.dfu.bin)

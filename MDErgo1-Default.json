@@ -122,10 +122,6 @@
                 "1": {
                     "key": "#:flashMode()",
                     "label": "FLASH"
-                },
-                "2": {
-                    "key": "#:flashMode()",
-                    "label": "FLASH"
                 }
             }
         },
@@ -325,7 +321,10 @@
             "w": 4,
             "h": 4,
             "layers": {
-
+                "0": {
+                    "key": "HOME",
+                    "label": "HOME"
+                }
             }
         },
         {
@@ -437,8 +436,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "HOME",
-                    "label": "HOME"
+                    "key": "END",
+                    "label": "END"
                 }
             }
         },
@@ -450,8 +449,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "END",
-                    "label": "END"
+                    "key": "LALT",
+                    "label": "LALT"
                 }
             }
         },
@@ -907,7 +906,10 @@
             "w": 4,
             "h": 4,
             "layers": {
-
+                "0": {
+                    "key": "PAGEUP",
+                    "label": "PGUP"
+                }
             }
         },
         {
@@ -1047,10 +1049,7 @@
             "w": 4,
             "h": 4,
             "layers": {
-                "0": {
-                    "key": "PAGEDOWN",
-                    "label": "PGDN"
-                }
+
             }
         },
         {

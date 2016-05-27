@@ -1,10 +1,8 @@
 SIDES := left right
 CONTROLLER := $(PWD)/controller
 KLLS := $(wildcard *.kll)
-# LAYOUT := MDErgo1
-# LCD := lcdFuncMap
-LAYOUT := MDErgoIME
-LCD := lcdFuncMapIME
+LAYOUT := MDErgo1
+LCD := lcdFuncMap
 
 all: submodules $(SIDES)
 

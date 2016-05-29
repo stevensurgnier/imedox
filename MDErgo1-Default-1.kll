@@ -17,6 +17,7 @@ U"S" : U"BACKSLASH";
 U"A" : U"BACKTICK";
 U"U" : U"LBRACE";
 U"I" : U"RBRACE";
+U"O" : '"';
 U"P" : '+';
 U"J" : '{';
 U"K" : '}';

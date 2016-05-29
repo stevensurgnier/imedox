@@ -7,14 +7,8 @@ KLL = "0.3c";
 Date = "2015-09-12";
 Generator = "KIICONF 0.2";
 
-U"G" : '%';
-U"F" : '$';
-U"D" : '#';
-U"S" : '@';
-U"A" : '!';
-U"H" : '^';
-U"J" : '&';
-U"K" : '*';
-U"L" : '(';
-U"SEMICOLON" : ')';
+U"F" : U"RIGHT";
+U"U" : U"UP";
+U"P" : U"RIGHT";
+U"N" : U"DOWN";
 
